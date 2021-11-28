@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "npx nodemon server.js"
+    "start": "npx nodemon server.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,8 @@
     "mysql2": "*",
     "nodemon": "^2.0.15",
     "sequelize": "^6.9.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
   }
 }
